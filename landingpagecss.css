@@ -1,0 +1,429 @@
+body, html {
+    height:182%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* to add  background   */
+  .bg-image {
+    /* The image used */
+    background-image: url('https://img.freepik.com/premium-photo/assorted-indian-recipes-food-various_79295-7226.jpg?w=740');
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position  of text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0); /*Black w/opacity /*see-through*/
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+
+/* navbar start from here  */
+
+.navbar{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;   
+    padding: 0rem 1rem;   
+}
+
+    /* css for navbar logo  */
+
+.logo img {
+    height: 160px;
+    width: 180px;
+    margin-top: 14px;
+}
+/* css for navabr list  */
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 19px;   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+color: white;
+border-radius: 3px;
+padding: 0.3rem 0.5rem;
+}
+
+/* css for navbar on  hover  */
+
+.navbar ul li a:hover{
+color:orange;
+background-color:transparent;
+border-bottom: 2px solid white;
+}
+
+ /* css for the main text section  */
+
+
+/* css to create blur effect  */
+
+.first-box{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color:rgba(211, 211, 211, 0.253); /*Black w/opacity /*see-through*/
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid gold; */
+    position: absolute;
+    top: 31cm;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  
+}
+ /* css for the text */
+
+.main-content{
+    display: flex;
+}
+.text-1{
+    /* border: 2px solid rebeccapurple; */
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 1cm;
+    flex-direction: column;
+}
+
+.text-1 h2{
+    font-size: 69px;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+}
+
+.text-1 a{
+    margin-left: 5cm;
+    text-align: center;
+    background-color: black;
+    font-family: 'Acme', sans-serif;
+    /* border: 2px solid red; */
+    /* margin-top: -1cm; */
+    border-radius: 23px;
+    text-align: center;
+    width: 150px;
+    height: 43px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+padding-top: 9px ;
+letter-spacing: 2px;
+}
+
+
+
+
+.text-1 a:hover{
+    background-color: orangered;
+}
+
+/* css for the first food image  */
+
+.image img {
+    /* border: 2px solid red; */
+    height: 450px;
+    margin-left: 11%;
+    margin-top: 21px;
+}
+
+
+/* css for the emoji used  */
+
+.emojis{
+    margin-top: 3cm;
+    margin-bottom: 2cm;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+
+
+}
+
+.emoji img{
+    /* border: 2px solid black; */
+    margin: 19px 5px ;
+    height: 54px;
+    width: 54px;
+    background-color: rgba(248, 239, 239, 0.897);
+    border-radius: 11px ;
+}
+
+
+
+.emoji img:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#emoji-4 img:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+
+}
+
+/* css for the second box  */
+
+.second-box{
+    /* border: 2px solid red; */
+    margin-top: 2cm;
+
+}
+
+.left{
+    display:grid;
+    grid-template-columns: 0.1fr 0.4fr 0.6fr ;
+    grid-gap: 0.1px;
+    margin-top: 32px;
+}
+
+.box{
+    /* border:2px solid black; */
+    background-color: rgba(218, 214, 214, 0.664);
+    margin-left:87px;
+    width: 200px;
+    height: fit-content;
+    border-radius: 37px;
+}
+
+.food-1 img{
+    /* border: 2px solid royalblue; */
+    border-radius: 50%;
+    vertical-align: middle;
+  width: 160px;
+  height: 160px;
+  margin-top: -49px;
+}
+
+#ramen img{
+    width: 280px;
+    /* border: 2px solid darkblue; */
+    margin-left: -29%;
+
+
+}
+
+
+.about-food{
+    display: flex;
+    justify-content: center;
+    color: black;
+    /* border: 2px solid hotpink; */
+}
+
+.food-name{
+    /* border: 2px solid gold; */
+    color: black;
+    margin: 0.6rem;
+    margin-top: -19px;
+    
+    
+}
+
+.food-name h4{
+    font-family: 'Patua One', cursive;
+    font-size: 16px;
+}
+
+.food-name h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /* border: 2px solid darkblue; */
+    margin-top: -20px;
+}
+
+.food-name h7{
+    /* border: 2px solid darkgoldenrod; */
+    margin-top: -19px;
+}
+
+#heart{
+    height: 27px;
+    /* background-color: gray; */
+    /* border: 2px solid darkmagenta; */
+    text-align: center;
+    margin-top: 6px;
+
+}
+
+.heart{
+    /* border: 2px solid red; */
+    height: 37px;
+    width: 37px;
+ background-color: grey;
+ border-radius: 60%;
+margin-top: 12px;
+}
+.heart:hover{
+background-color: rgba(0, 0, 0, 0.842);
+
+}
+
+#box-3{
+    background-color: transparent;
+    /* border: 2px solid hotpink; */
+    margin-top: 2px;
+    width:fit-content;
+    height: fit-content;
+    margin-right: 22px;
+}
+
+#box-3 h3{
+    font-size: 29px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 800;
+    color: black;
+}
+#box-3 p{
+    
+    color: black;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* css for the  third para        */
+
+.third-para{
+    /* border: 2px solid firebrick; */
+    margin-top: 23px;
+    display: flex;
+}
+
+.third-text h3{
+    font-size: 49px;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+}
+
+.third-text p{
+    font-size: 16px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.third-para img{
+    height: 400px;
+    width: 400px;
+}
+
+footer{
+    /* border: 2px solid darkviolet; */
+}
+
+.end{
+    display: flex;
+}
+
+.end-text{
+    /* border: 2px solid hotpink; */
+    width:1000px
+}
+
+.end-text p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.end-text h2{
+    font-weight: 800;
+    color: black;
+    font-size: 39px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.btn-btn{
+    /* border: 2px solid darkorange; */
+    float: right;
+    margin-left: 40%;
+    margin-right: 29px;
+    height: 40px;
+    width: 300px;
+    margin-top: 55px;
+    background-color: black;
+    border-radius: 29px;
+padding: 8px 2px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+}
+
+.btn-btn:hover{
+    background-color: darkorange;
+    
+}
+
+.about-us{
+    /* border: 2px solid goldenrod; */
+    margin-top: 19px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 490px;
+    margin-left:8px;
+}
+
+.end-of-page{
+    /* border: 2px solid darkred; */
+    padding:12px 13px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.end-box img{
+    /* border: 2px solid darkblue; */
+    height: 210px;
+    width: 210px;
+}
+.end-box{
+/* border: 2px solid teal; */
+color: black;
+}
+
+#end-box-2 h2,#end-box-3 h2, #end-box-4 h2{
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif; 
+}
+
+.end-box p{
+    /* border: 2px solid hotpink; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
