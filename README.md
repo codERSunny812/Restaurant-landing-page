@@ -1,1 +1,1 @@
-# Restruant-landing-page
+# Restaurant-landing-page
